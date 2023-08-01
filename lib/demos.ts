@@ -10,23 +10,23 @@ export const demos: { name: string; items: Item[] }[] = [
     items: [
       {
         name: 'Aplicaciones Android',
-        slug: 'Powered by DrowKid',
+        slug: 'apps',
         description: 'Aplicaciones que he creado',
       },
       {
-        name: 'Grouped Layouts',
+        name: 'Scripts',
         slug: 'route-groups',
-        description: 'Organize routes without affecting URL paths',
+        description: 'Instala servicios o herramientas en tu terminal (windows, linux, termux).',
       },
       {
-        name: 'Parallel Routes',
+        name: 'Herramientas Online',
         slug: 'parallel-routes',
-        description: 'Render multiple pages in the same layout',
+        description: '¿Te gustó alguna herramienta de mi catálogo open source?, ¡te enseño a personalizarla y subirla a internet!',
       },
     ],
   },
   {
-    name: 'File Conventions',
+    name: 'Generadores',
     items: [
       {
         name: 'Loading',
