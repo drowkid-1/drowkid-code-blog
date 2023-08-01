@@ -1,28 +1,10 @@
-# Next.js App Router Playground
+# DrowKid CodeBlog
 
-Next.js recently introduced the App Router with support for:
+Blog sobre mis otros proyectos, scripts, apps, tools online, bots, generadores y más de <strong>código abierto</strong>
 
-- **Layouts:** Easily share UI while preserving state and avoiding re-renders.
-- **Server Components:** Making server-first the default for the most dynamic applications.
-- **Streaming:** Display instant loading states and stream in updates.
-- **Suspense for Data Fetching:** `async`/`await` support and the `use` hook for component-level fetching.
-
-The App Router can coexist with the existing `pages` directory for incremental adoption. While you **don't need to use the App Router** when upgrading to Next.js 13, we're laying the foundations to build complex interfaces while shipping less JavaScript.
-
-## Running Locally
-
-1. Install dependencies:
-
-```sh
-pnpm install
-```
-
-2. Start the dev server:
-
-```sh
-pnpm dev
-```
-
-## Documentation
-
-https://nextjs.org/docs
+- **Aplicaciones para android:** Lista de apps de estructura pública y abierta para su libre uso y/o personalización.
+- **Scripts:** Instala servicios o herramientas en tu terminal (windows, linux, termux).
+- **Herramientas online:** ¿Te gustó alguna herramienta de mi catálogo <strong>open source</strong>?, ¡te enseño a personalizarla y subirla a internet!
+- **Generadores:** Usa, edita o inspírate accediendo a la estructura inicial de los generadores que forman parte de <strong>Proyectos Open Source</strong>.
+ 
+# 
