@@ -32,7 +32,7 @@ export default function Byline({ className }: { className: string }) {
             target="_blank"
             rel="noreferrer"
           >
-            Open Source 
+            Open Source.
           </a>
         </div>
       </div>
