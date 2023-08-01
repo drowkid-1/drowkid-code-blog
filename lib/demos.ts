@@ -6,7 +6,7 @@ export type Item = {
 
 export const demos: { name: string; items: Item[] }[] = [
   {
-    name: 'Contenido',
+    name: 'Proyectos de código abierto',
     items: [
       {
         name: 'Aplicaciones Android',
@@ -26,60 +26,50 @@ export const demos: { name: string; items: Item[] }[] = [
     ],
   },
   {
+    name: 'Aplicaciones',
+    items: [
+      {
+        name: 'DrowTub',
+        slug: 'loading',
+        description:
+          'Descarga y/o reproduce tu música favorita de distintas plataformas digitales y en distintas calidades.',
+      },
+      {
+        name: 'DrowGenApp',
+        slug: 'error-handling',
+        description: 'Crea apps para móviles apartir de sitios web. ¡Sólo necesitas la URL!',
+      },
+      {
+        name: 'VirtualXDrow',
+        slug: 'not-found',
+        description: 'Crea un espacio virtual en tu dispositivo para clonar aplicaciones y tener 2 dispositivos en uno sólo. ',
+      },
+    ],
+  },
+  {
     name: 'Generadores',
     items: [
       {
-        name: 'Loading',
-        slug: 'loading',
-        description:
-          'Create meaningful Loading UI for specific parts of an app',
-      },
-      {
-        name: 'Error',
-        slug: 'error-handling',
-        description: 'Create Error UI for specific parts of an app',
-      },
-      {
-        name: 'Not Found',
-        slug: 'not-found',
-        description: 'Create Not Found UI for specific parts of an app',
-      },
-    ],
-  },
-  {
-    name: 'Data Fetching',
-    items: [
-      {
-        name: 'Streaming with Suspense',
+        name: 'DrowLinksGen',
         slug: 'streaming',
         description:
-          'Streaming data fetching from the server with React Suspense',
+          'Crea Links in Bio en segundos sin suscripciones, sin anuncios, sin keys y sin costo.',
       },
       {
-        name: 'Static Data',
+        name: 'GHProfile Gen',
         slug: 'ssg',
-        description: 'Generate static pages',
-      },
-      {
-        name: 'Dynamic Data',
-        slug: 'ssr',
-        description: 'Server-render pages',
-      },
-      {
-        name: 'Incremental Static Regeneration',
-        slug: 'isr',
-        description: 'Get the best of both worlds between static & dynamic',
+        description: 'Genera README.md (archivos md) llamativos y elegantes.',
       },
     ],
   },
   {
-    name: 'Components',
+    name: 'Scripts',
     items: [
       {
-        name: 'Client Context',
+        name: 'DrowScript',
         slug: 'context',
         description:
-          'Pass context between Client Components that cross Server/Client Component boundary',
+          'Potente script con 8 herramientas avanzadas desde dns, Localhost, urlacortador, pshishing, qrgen y más',
       },
     ],
   },
