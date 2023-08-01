@@ -6,12 +6,12 @@ export type Item = {
 
 export const demos: { name: string; items: Item[] }[] = [
   {
-    name: 'Layouts',
+    name: 'Contenido',
     items: [
       {
-        name: 'Nested Layouts',
-        slug: 'layouts',
-        description: 'Create UI that is shared across routes',
+        name: 'Aplicaciones Android',
+        slug: 'Powered by DrowKid',
+        description: 'Aplicaciones que he creado',
       },
       {
         name: 'Grouped Layouts',
