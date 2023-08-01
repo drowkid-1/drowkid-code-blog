@@ -26,7 +26,7 @@ export function GlobalNav() {
           </div>
 
           <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
-            App Router
+            DrowKid CodeBlog
           </h3>
         </Link>
       </div>
@@ -36,7 +36,7 @@ export function GlobalNav() {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="font-medium text-gray-100 group-hover:text-gray-400">
-          Menu
+          Menú
         </div>
         {isOpen ? (
           <XIcon className="block w-6 text-gray-400" />
