@@ -6,15 +6,15 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'DrowKid - Router',
-    template: '%s | Next.js App Router',
+    default: 'DrowKid',
+    template: '%s | DrowKid Website ',
   },
   description:
-    'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+    'Drowkid',
   openGraph: {
-    title: 'Next.js App Router Playground',
+    title: 'DrowKid',
     description:
-      'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+      'DrowKid',
     images: [`/api/og?title=Next.js DrowKid`],
   },
   twitter: {
