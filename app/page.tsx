@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="space-y-8">
-      <h1 className="text-xl font-medium text-gray-300">Proyectos Open Source</h1>
+      <h1 className="text-xl font-medium text-gray-300">Publicaciones recientes</h1>
 
       <div className="space-y-10 text-white">
         {demos.map((section) => {
