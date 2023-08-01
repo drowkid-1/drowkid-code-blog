@@ -8,7 +8,7 @@ export default function Byline({ className }: { className: string }) {
       <div className="flex flex-col justify-between space-y-2 rounded-lg bg-black p-3.5 lg:px-5 lg:py-3">
         <div className="flex items-center gap-x-1.5">
           <div className="text-sm text-gray-400">By</div>
-          <a href="https://vercel.com" title="Vercel">
+          <a href="https://lalo.b-cdn.net" title="Vercel">
             <div className="w-16 text-gray-100 hover:text-gray-50">
               <VercelLogo />
             </div>
@@ -16,7 +16,7 @@ export default function Byline({ className }: { className: string }) {
         </div>
 
         <div className="text-sm text-gray-400">
-        {'Sígueme  '}
+        {'Sígueme en '}
           <a
             className="underline decoration-dotted underline-offset-4 transition-colors hover:text-gray-300"
             href="https://links-lalo.my.to/"
