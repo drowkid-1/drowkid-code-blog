@@ -3,7 +3,7 @@ import { ClickCounter } from '#/ui/click-counter';
 import { TabGroup } from '#/ui/tab-group';
 import React from 'react';
 
-const title = 'Nested Layouts';
+const title = 'Proyectos';
 
 export const metadata = {
   title,
@@ -27,7 +27,7 @@ export default async function Layout({
           path="/layouts"
           items={[
             {
-              text: 'Home',
+              text: 'Inicio',
             },
             ...categories.map((x) => ({
               text: x.name,
