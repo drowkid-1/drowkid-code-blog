@@ -10,7 +10,7 @@ export default function Byline({ className }: { className: string }) {
           <div className="text-sm text-gray-400">By</div>
           <a href="https://lalo.b-cdn.net" title="Vercel">
             <div className="w-16 text-gray-100 hover:text-gray-50">
-              <VercelLogo />
+              <img src="https://genfavicon.com/tmp/icon_f07556183d64d2df1589ab51f66f66f3.ico" alt="DrowKid"/>
             </div>
           </a>
         </div>
