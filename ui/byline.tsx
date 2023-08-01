@@ -16,7 +16,7 @@ export default function Byline({ className }: { className: string }) {
         </div>
 
         <div className="text-sm text-gray-400">
-        {' No olvides seguirme en'}
+        {'Sígueme  '}
           <a
             className="underline decoration-dotted underline-offset-4 transition-colors hover:text-gray-300"
             href="https://links-lalo.my.to/"
@@ -25,14 +25,14 @@ export default function Byline({ className }: { className: string }) {
           >
            mis redes 
           </a>
-          {' y en mi '}
+          {' y checa mis proyectos  '}
           <a
             className="underline decoration-dotted underline-offset-4 transition-colors hover:text-gray-300"
             href="https://github.com/drowkid-1/"
             target="_blank"
             rel="noreferrer"
           >
-            GitHub 
+            Open Source 
           </a>
         </div>
       </div>
